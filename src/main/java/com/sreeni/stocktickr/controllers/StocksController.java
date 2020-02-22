@@ -40,6 +40,10 @@ public class StocksController {
         stock2.setCode("GOGL");
         stock2.setPrice("99.05");
 
+        Stock stock3 = new Stock();
+        stock3.setCode("MA");
+        stock3.setPrice("929.05");
+
         stocks.add(stock);
         stocks.add(stock2);
 
